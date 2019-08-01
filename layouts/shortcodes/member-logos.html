@@ -1,0 +1,13 @@
+{{ $members := site.Data.members }}
+<div class="container member-logos">
+  <div class="columns is-multiline">
+    {{ range $members }}
+    <div class="column has-text-centered is-one-fifth">
+      {{ $img := printf "img/logos/members/%s" .img | relURL }}
+      <a class="member-logo" href="{{ .url }}" target="_blank">
+        <img src="{{ $img }}">
+      </a>
+    </div>
+    {{ end }}
+  </div>
+</div>

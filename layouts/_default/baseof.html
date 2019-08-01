@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ block "title" . }}{{ end }}</title>
+    {{ partial "favicon.html" . }}
+    {{ partial "css.html" . }}
+  </head>
+  <body class="body has-navbar-fixed-top">
+    <div class="main">
+      {{ partial "navbar.html" . }}
+
+      {{ block "main" . }}
+      {{ end }}
+    </div>
+
+    {{ partial "footer.html" . }}
+
+    {{ partial "javascript.html" . }}
+  </body>
+</html>

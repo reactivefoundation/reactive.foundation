@@ -1,0 +1,18 @@
+{{ $home     := site.BaseURL }}
+{{ $title    := site.Title }}
+{{ $subtitle := site.Params.home.subtitle | markdownify }}
+{{ $buttons  := site.Params.home.buttons }}
+{{ $logo     := site.Params.logos.hero }}
+{{ $logoUrl  := printf "img/logos/%s" $logo | relURL }}
+{{ $desc     := site.Params.description }}
+<section class="hero is-medium">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <img class="is-hero-logo" src="{{ $logoUrl }}">
+
+      <p class="title is-size-2 is-size-4-mobile has-text-weight-light">
+        {{ $desc }}
+      </p>
+    </div>
+  </div>
+</section>

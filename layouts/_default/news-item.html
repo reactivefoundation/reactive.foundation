@@ -1,0 +1,23 @@
+{{ define "title" }}
+{{ .Title }} — GraphQL
+{{ end }}
+
+{{ define "main" }}
+{{ partial "news-item/hero.html" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="content is-medium doc-section">
+      {{ .Content }}
+
+      {{ with .Params.read_more }}
+      <div class="read-more">
+        <a class="button is-primary is-outlined" href="{{ . }}">
+          Read more
+        </a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,38 @@
+{{ $info        := site.Params.info.columns }}
+{{ $explanation := site.Params.explanation.columns }}
+
+{{ with $info }}
+<section class="section">
+  <div class="container">
+    <div class="columns is-variable is-8">
+      {{ range . }} 
+      <div class="column">
+        <p class="title has-text-primary is-size-4 is-size-5-mobile has-text-weight-light">
+          {{ .title }}
+        </p>
+
+        <hr />
+
+        <p class="is-size-5 is-size-6-mobile has-text-weight-light">
+          {{ .content | markdownify }}
+        </p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with $explanation }}
+<section class="section has-background-grey-dark has-text-white">
+  <div class="container">
+    <div class="columns is-variable is-8">
+      {{ range . }}
+      <div class="column content is-size-5 is-size-6-mobile has-text-weight-light">
+        {{ . | markdownify }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

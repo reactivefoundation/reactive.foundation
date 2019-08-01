@@ -1,0 +1,42 @@
+{{ define "title" }}
+{{ .Title }} — GraphQL
+{{ end }}
+
+{{ define "main" }}
+{{ $currentSection := .CurrentSection.Title }}
+{{ $itemType       := $currentSection | urlize }}
+{{ $isRoot         := eq $currentSection .FirstSection.Title }}
+{{ $items          := cond $isRoot (where site.RegularPages "Section" "news") (where site.RegularPages ".Params.type" $itemType) }}
+
+{{ partial "hero.html" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="content doc-section">
+      {{ range $items }}
+      {{ $date := .Date | dateFormat "January 2, 2006" }}
+      {{ $itemType := .Params.type }}
+      {{ $display := (dict "announcements" "Announcement" "in-the-news" "In The News") }}
+      {{ $type := index $display $itemType }}
+      <div class="news-item">
+        <p class="news-item-header has-text-weight-light">
+          {{ $date }} in {{ $type }}
+        </p>
+
+        <p class="news-item-title has-text-weight-light" href="{{ .RelPermalink }}">
+          {{ .Title }}
+        </p>
+
+        <p class="news-item-summary">
+          {{ .Summary }}...
+        </p>
+
+        <a class="button is-small is-primary is-outlined" href="{{ .RelPermalink }}">
+          Read more
+        </a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,26 @@
+{{ $faq := site.Data.faq }}
+
+<table>
+  <thead>
+    <tr>
+      <th class="is-size-3 has-text-weight-light">
+        Question
+      </th>
+      <th class="is-size-3 has-text-weight-light">
+        Answer
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range $faq }}
+    <tr>
+      <td style="width: 30%;">
+        {{ .q }}
+      </td>
+      <td>
+        {{ .a | markdownify }}
+      </td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>

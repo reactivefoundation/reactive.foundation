@@ -1,0 +1,124 @@
+@charset "utf-8"
+
+@url(https://fonts.googleapis.com/css?family=Roboto:300,400,600,700)
+
+// Project color palette
+$pink: #ec3590
+$purple: #56148e
+
+@import "bulma/sass/utilities/initial-variables"
+@import "bulma/sass/utilities/functions"
+
+$primary: $pink
+
+$navbar-height: 5rem
+$navbar-item-img-max-height: $navbar-height * 0.7
+$navbar-burger-color: $primary
+$navbar-dropdown-border-top: 1px solid $grey-light
+$section-padding: 3rem 1.5rem
+$family-sans-serif: 'Roboto', sans-serif
+
+.body
+  display: flex
+  flex-direction: column
+  min-height: 100vh
+
+  .main
+    flex: 1
+
+@import "bulma/sass/utilities/derived-variables"
+
+@import "bulma/bulma"
+
+.pricing-table
+  width: 50%
+
+.member-logos
+  margin-top: 4rem
+
+  .member-logo
+    +desktop
+      img
+        width: 75%
+        margin-bottom: 1rem
+    +mobile
+      img
+        width: 50%
+
+.read-more
+  margin-top: 5rem
+
+.news-item
+  &-header
+    
+  &-title
+    font-size: 1.5rem
+
+  & + &
+    margin-top: 3rem
+
+.navbar-dropdown
+  padding: .5rem 0
+  border: none
+  background-color: $dark
+
+  .navbar-item
+    color: $grey-lighter
+    font-size: 1rem
+    font-weight: 400
+
+    &:hover
+      color: $pink !important
+      background-color: $black !important
+
+    &.is-active
+      color: $primary
+
+.doc-section
+  +desktop
+    margin: 0 4rem 6rem 4rem
+
+=overlay
+  background-color: rgba(221,23,151,.75)
+
+.hero-body
+  padding: 3rem 0
+  margin: 0
+
+hr.home
+  height: 1px
+  margin: 0 auto
+  background-color: $primary
+  width: 50%
+
+.footer
+  background-color: $dark
+
+  &-logo
+    +mobile
+      //width: 4rem
+    +desktop
+      width: 40%
+
+  &-copyright
+    color: $grey-light
+
+    a
+      font-weight: 500
+      color: $grey-lighter
+
+      &:hover
+        color: $primary
+
+.is-hero-logo
+  +mobile
+    width: 90%
+    margin-bottom: 1.5rem
+  +tablet
+    width: 40%
+    margin-bottom: 3rem
+
+.is-faq-content
+  .faq
+    & + .faq
+      margin-top: 2rem

@@ -1,0 +1,24 @@
+{{ define "title" }}
+{{ site.Title }} | {{ .Title }}
+{{ end }}
+
+{{ define "main" }}
+{{ $faq := site.Data.faq }}
+<section class="hero is-medium home">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <p class="title is-size-1 is-size-2-mobile has-text-white has-text-weight-light">
+        {{ .Title }}
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="content is-medium has-text-weight-light doc-section">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+{{ end }}
