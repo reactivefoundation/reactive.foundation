@@ -10,23 +10,29 @@ hero   = "reactivefoundation-stacked-color.png"
 footer = "reactivefoundation-stacked-white.png"
 
 [[params.info.columns]]
-title = "What is the GraphQL Foundation?"
-content = "The GraphQL Foundation is a neutral foundation founded by global technology and application development companies. The GraphQL Foundation encourages contributions, stewardship, and a shared investment from a broad group in vendor-neutral events, documentation, tools, and support for GraphQL."
+title = "What is the Reactive Foundation?"
+content = "Placeholder"
 
 [[params.info.columns]]
-title = "What is GraphQL?"
-content = "GraphQL is a data query language and specification developed internally by Facebook in 2012 before being publicly open sourced in 2015. It provides an alternative to REST-based architectures with the purpose of increasing developer productivity and minimizing amounts of data transferred. GraphQL is used in production by hundreds of organizations of all sizes including Facebook, Credit Karma, GitHub, Intuit, PayPal, the New York Times and many more."
+title = "What is Reactive Programming?"
+content = "Placeholder"
 
 [params.explanation]
 columns = [
 """
-As application development shifts towards microservices architectures with an emphasis on flexibility and speed to market, tools like GraphQL are redefining API design and client-server interaction to improve the developer experience. GraphQL makes cross-platform and mobile development simpler with availability in the programming language of your choice, while allowing developers to create seamless user experiences for their customers.
-
-Airbnb, Apollo, Coursera, Elementl, Facebook, GitHub, Hasura, Prisma, Shopify, and Twitter are working together to form a new, vendor-neutral foundation that will provide unified governance and stewardship for GraphQL.
+Placeholder.
 """,
 """
-Hosted under the Linux Foundation, the nonprofit organization enabling mass innovation through open source, the Foundation’s mission will be to enable widespread adoption and help accelerate development of GraphQL and the surrounding ecosystem.
-
-The Foundation will combine resources to provide financial and intellectual resources, infrastructure, outreach services, events, and training. We invite others to join us to empower the community and ensure long-term technical success for GraphQL.
+Placeholder.
 """
 ]
+
+[[menu.navbar]]
+name = "About"
+url = "/about"
+weight = 1
+
+[[menu.navbar]]
+name = "Projects"
+url = "/projects"
+weight = 2

@@ -1,7 +1,7 @@
 {{ $home       := site.BaseURL }}
 {{ $logo       := site.Params.logos.navbar }}
 {{ $logoUrl    := printf "img/logos/%s" $logo | relURL }}
-{{ $nav        := site.Data.nav }}
+{{ $menu       := site.Menus.navbar }}
 {{ $currentUrl := .RelPermalink }}
 <nav class="navbar is-fixed-top is-primary">
   <div class="container">
@@ -19,20 +19,21 @@
 
     <div class="navbar-menu" id="navbar-menu">
       <div class="navbar-end">
-        {{ range $nav }}
+        {{ range $menu }}
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link is-size-5 has-text-weight-light is-arrowless">
-            {{ .name }}
+          <a class="navbar-link is-size-5 has-text-weight-light is-arrowless" href="{{ .URL }}  ">
+            {{ .Name }}
           </a>
 
+          {{ if .HasChildren }}
           <div class="navbar-dropdown is-radiusless">
-            {{ range .links }}
-            {{ $url := .url | relURL }}
-            <a class="navbar-item" href="{{ $url }}">
-              {{ .name }}
+            {{ range .Children }}
+            <a class="navbar-item" href="{{ .URL }}">
+              {{ .Name }}
             </a>
             {{ end }}
           </div>
+          {{ end }}
         </div>
         {{ end }}
       </div>
