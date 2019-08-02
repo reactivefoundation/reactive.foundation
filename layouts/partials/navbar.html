@@ -3,6 +3,7 @@
 {{ $logoUrl    := printf "img/logos/%s" $logo | relURL }}
 {{ $menu       := site.Menus.navbar }}
 {{ $currentUrl := .RelPermalink }}
+{{ $github     := site.Params.github_repo }}
 <nav class="navbar is-fixed-top is-primary">
   <div class="container">
     <div class="navbar-brand">
@@ -36,6 +37,17 @@
           {{ end }}
         </div>
         {{ end }}
+
+        <div class="navbar-item">
+          <a class="button is-black is-radiusless" href="{{ $github }}">
+            <span class="icon">
+              <i class="fab fa-github"></i>
+            </span>
+            <span class="has-text-weight-bold">
+              GitHub
+            </span>
+          </a>
+        </div>
       </div>
     </div>
   </div>

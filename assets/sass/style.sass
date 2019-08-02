@@ -1,6 +1,9 @@
+{{ $fontAwesomeVersion := site.Params.font_awesome_version }}
+{{ $fontAwesomeUrl := printf "https://use.fontawesome.com/releases/v%s/css/all.css" $fontAwesomeVersion }}
 @charset "utf-8"
 
 @url(https://fonts.googleapis.com/css?family=Roboto:300,400,600,700)
+@import url({{ $fontAwesomeUrl }})
 
 // Project color palette
 $pink: #ec3590
@@ -81,10 +84,6 @@ $family-sans-serif: 'Roboto', sans-serif
 =overlay
   background-color: rgba(221,23,151,.75)
 
-.hero-body
-  padding: 3rem 0
-  margin: 0
-
 hr.home
   height: 1px
   margin: 0 auto
@@ -95,10 +94,7 @@ hr.home
   background-color: $dark
 
   &-logo
-    +mobile
-      //width: 4rem
-    +desktop
-      width: 40%
+    width: 50%
 
   &-copyright
     color: $grey-light

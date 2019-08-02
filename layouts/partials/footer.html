@@ -1,16 +1,17 @@
 {{ $year    := now.Year }}
 {{ $logo    := site.Params.logos.footer }}
 {{ $logoUrl := printf "img/logos/%s" $logo | relURL }}
+{{ $copy    := site.Params.copyright | markdownify }}
 <footer class="footer has-text-weight-light">
   <div class="container">
     <div class="columns">
       <div class="column is-one-quarter">
-        <img src="{{ $logoUrl }}" class="footer-logo">
+        <img class="footer-logo" src="{{ $logoUrl }}">
       </div>
 
       <div class="column">
         <p class="is-size-5 is-size-6-mobile footer-copyright">
-          &copy; {{ $year }} The Reactive Foundation.
+          &copy; {{ $year }} {{ $copy }}
         </p>
       </div>
     </div>
