@@ -1,5 +1,6 @@
 title        = "The Reactive Foundation"
 languageCode = "en-us"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
 font_awesome_version = "5.3.1"
