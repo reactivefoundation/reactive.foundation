@@ -2,7 +2,7 @@
 {{ $fontAwesomeUrl := printf "https://use.fontawesome.com/releases/v%s/css/all.css" $fontAwesomeVersion }}
 @charset "utf-8"
 
-@url(https://fonts.googleapis.com/css?family=Roboto:300,400,600,700)
+@url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700)
 @import url({{ $fontAwesomeUrl }})
 
 // Project color palette
@@ -13,13 +13,19 @@ $purple: #56148e
 @import "bulma/sass/utilities/functions"
 
 $primary: $pink
+$secondary: $purple
+$link: $secondary
+$link-weight: 700
 
 $navbar-height: 5rem
 $navbar-item-img-max-height: $navbar-height * 0.7
 $navbar-burger-color: $primary
 $navbar-dropdown-border-top: 1px solid $grey-light
 $section-padding: 3rem 1.5rem
-$family-sans-serif: 'Roboto', sans-serif
+$family-sans-serif: 'Source Sans Pro', sans-serif
+
+.bottom-padding
+  padding-bottom: 8rem
 
 .body
   display: flex
@@ -32,6 +38,9 @@ $family-sans-serif: 'Roboto', sans-serif
 @import "bulma/sass/utilities/derived-variables"
 
 @import "bulma/bulma"
+
+.content a
+  font-weight: 400
 
 .pricing-table
   width: 50%
