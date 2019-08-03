@@ -15,19 +15,21 @@ footer = "reactivefoundation-stacked-white.png"
 
 [[params.info.columns]]
 title = "What is the Reactive Foundation?"
-content = "Placeholder"
+content = "An open source software foundation dedicated to promoting the usage of reactive programming in production."
 
 [[params.info.columns]]
 title = "What is Reactive Programming?"
-content = "Placeholder"
+content = """
+A set of principles promoting responsive, resilient, elastic, message-driven design patterns. For more info, see the [Reactive Manifesto](https://www.reactivemanifesto.org/).
+"""
 
 [params.explanation]
 columns = [
 """
-Placeholder.
+Building modern, cloud native applications often require reactive systems that are responsive, resilient, elastic and message driven. The Reactive Foundation offers a neutral ecosystem of support for open source projects enabling developers building reactive applications on cloud native infrastructure.
 """,
 """
-Placeholder.
+Reactive programming is a declarative programming paradigm for data streams and the propagation of change, and simplifies the creation of interactive user interfaces and near-real-time system animation. .
 """
 ]
 
