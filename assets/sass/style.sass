@@ -22,6 +22,7 @@ $secondary: $reactive-light-purple
 $link: $secondary
 $link-weight: 700
 
+$body-size: 16px
 $navbar-height: 4rem
 $navbar-item-img-max-height: $navbar-height * 0.7
 $navbar-burger-color: $primary
@@ -44,8 +45,15 @@ $family-sans-serif: 'Gotham Book Regular', sans-serif
 
 @import "bulma/bulma"
 
-.content a
-  font-weight: 400
+.content
+  +tablet
+    width: 80%
+    font-size: 18px
+
+  +mobile
+
+  a
+    font-weight: 600
 
 .pricing-table
   width: 50%
