@@ -1,0 +1,28 @@
+{{ $isHome   := .IsHome }}
+{{ $title    := .Title }}
+{{ $desc     := .Param "description" }}
+{{ $pageType := cond $isHome "website" "article" }}
+{{ $imageUrl := printf "img/logos/%s" site.Params.logos.hero | absURL }}
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+{{ with $desc }}
+<meta name="description" content="{{ . }}">
+{{ end }}
+
+<!-- OpenGraph -->
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="locale" content="en_US">
+{{ if not $isHome }}
+<meta property="og:site_name" content="{{ site.Title }}">
+{{ end }}
+{{ with $desc }}
+<meta property="og:description" content="{{ . }}">
+{{ end }}
+<meta name="og:type" content="{{ $pageType }}">
+<meta name="og:image" content="{{ $imageUrl }}">
+<meta name="og:image:alt" content="{{ site.Title }} project logo">
+<meta name="og:image:type" content="image/png">
+
+<link rel="canonical" content="{{ .Permalink }}">
+<link rel="shortcut icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}">

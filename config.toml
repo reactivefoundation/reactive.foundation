@@ -1,4 +1,5 @@
 title        = "The Reactive Foundation"
+baseURL      = "https://reactive.foundation"
 languageCode = "en-us"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 

@@ -1,5 +1,6 @@
 ---
 title: About the Reactive Foundation
+description: Who's behind the Foundation and which projects it supports
 ---
 
 The Reactive Foundation is made up of [Alibaba](https://alibaba.github.io/), [Facebook](https://opensource.facebook.com/), [Netifi](https://www.netifi.com/), and [Pivotal](https://pivotal.io/) as initial members and includes the highly successful [RSocket](https://rsocket.io) specification and implementations.
