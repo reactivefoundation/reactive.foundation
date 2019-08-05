@@ -1,7 +1,7 @@
 {{ $home       := site.BaseURL }}
 {{ $logo       := site.Params.logos.navbar }}
 {{ $logoUrl    := printf "img/logos/%s" $logo | relURL }}
-{{ $menu       := site.Menus.navbar }}
+{{ $menu       := site.Menus.main }}
 {{ $currentUrl := .RelPermalink }}
 {{ $github     := site.Params.github_repo }}
 <nav class="navbar is-fixed-top is-primary">
@@ -23,7 +23,7 @@
         {{ range $menu }}
         {{ if .HasChildren }}
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link is-size-5 is-arrowless" href="{{ .URL }}  ">
+          <a class="navbar-link is-size-5 is-arrowless"{{ with .URL }} href="{{ . }}"{{ end }}>
             {{ .Name }}
           </a>
 
