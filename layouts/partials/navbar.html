@@ -23,27 +23,27 @@
         {{ range $menu }}
         {{ if .HasChildren }}
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link is-size-5 has-text-weight-bold is-arrowless" href="{{ .URL }}  ">
+          <a class="navbar-link is-size-5 is-arrowless" href="{{ .URL }}  ">
             {{ .Name }}
           </a>
 
           <div class="navbar-dropdown is-radiusless">
             {{ range .Children }}
-            <a class="navbar-item" href="{{ .URL }}">
+            <a class="navbar-item is-size-6" href="{{ .URL }}">
               {{ .Name }}
             </a>
             {{ end }}
           </div>
         </div>
         {{ else }}
-        <a class="navbar-item is-size-5 has-text-weight-bold" href="{{ .URL }}">
+        <a class="navbar-item is-size-5" href="{{ .URL }}">
           {{ .Name }}
         </a>
         {{ end }}
         {{ end }}
 
         <div class="navbar-item">
-          <a class="button is-black is-radiusless" href="{{ $github }}">
+          <a class="button is-black is-radiusless" href="{{ $github }}" target="_blank">
             <span class="icon">
               <i class="fab fa-github"></i>
             </span>

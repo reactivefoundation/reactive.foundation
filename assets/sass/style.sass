@@ -2,27 +2,32 @@
 {{ $fontAwesomeUrl := printf "https://use.fontawesome.com/releases/v%s/css/all.css" $fontAwesomeVersion }}
 @charset "utf-8"
 
-@url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700)
 @import url({{ $fontAwesomeUrl }})
 
+@font-face
+  font-family: 'Gotham Book Regular'
+  src: url('/fonts/Gotham-Book-Regular.otf') format('otf')
+
 // Project color palette
-$pink: #ec3590
-$purple: #56148e
+$reactive-magenta: rgb(255, 0, 147)
+$reactive-light-purple: rgb(191, 46, 174)
+$reactive-dark-purple: rgb(94, 0, 148)
+$reactive-black: rgb(48, 52, 68)
 
 @import "bulma/sass/utilities/initial-variables"
 @import "bulma/sass/utilities/functions"
 
-$primary: $pink
-$secondary: $purple
+$primary: $reactive-magenta
+$secondary: $reactive-light-purple
 $link: $secondary
 $link-weight: 700
 
-$navbar-height: 5rem
+$navbar-height: 4rem
 $navbar-item-img-max-height: $navbar-height * 0.7
 $navbar-burger-color: $primary
 $navbar-dropdown-border-top: 1px solid $grey-light
 $section-padding: 3rem 1.5rem
-$family-sans-serif: 'Source Sans Pro', sans-serif
+$family-sans-serif: 'Gotham Book Regular', sans-serif
 
 .bottom-padding
   padding-bottom: 8rem
@@ -80,7 +85,7 @@ $family-sans-serif: 'Source Sans Pro', sans-serif
     font-weight: 400
 
     &:hover
-      color: $pink !important
+      color: $primary !important
       background-color: $black !important
 
     &.is-active
@@ -117,7 +122,7 @@ hr.home
     width: 70%
     margin-bottom: 1.5rem
   +tablet
-    width: 40%
+    width: 30%
     margin-bottom: 3rem
 
 .is-faq-content

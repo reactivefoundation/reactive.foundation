@@ -2,18 +2,18 @@
 {{ $explanation := site.Params.explanation.columns }}
 
 {{ with $info }}
-<section class="section">
+<section class="section has-background-white-bis">
   <div class="container">
     <div class="columns is-variable is-8">
       {{ range . }} 
       <div class="column">
-        <p class="title has-text-primary is-size-3 is-size-4-mobile has-text-weight-light">
+        <p class="title has-text-primary is-size-4 is-size-5-mobile has-text-weight-light">
           {{ .title }}
         </p>
 
-        <hr />
+        <hr class="has-background-grey-lighter" />
 
-        <div class="is-size-4 is-size-5-mobile has-text-weight-light">
+        <div class="is-size-5 is-size-6-mobile has-text-weight-light">
           {{ .content | markdownify }}
         </div>
       </div>
@@ -28,7 +28,7 @@
   <div class="container">
     <div class="columns is-variable is-8">
       {{ range . }}
-      <div class="column content is-size-4 is-size-5-mobile has-text-weight-light">
+      <div class="column content is-size-5 is-size-6-mobile has-text-weight-light">
         {{ . | markdownify }}
       </div>
       {{ end }}
