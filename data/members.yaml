@@ -1,4 +1,8 @@
-- img: alibaba.png
+- img: alibaba.svg
   url: https://www.alibabagroup.com
-- img: pivotal.png
-  url: https://google.com
+- img: facebook.svg
+  url: https://facebook.com
+- img: lightbend.svg
+  url: https://lightbend.com
+- img: pivotal.svg
+  url: https://pivotal.io
