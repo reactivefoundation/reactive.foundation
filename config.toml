@@ -58,3 +58,19 @@ parent = "members"
 name = "Join"
 url = "/join"
 parent = "members"
+
+[[params.members]]
+img = "alibaba.svg"
+url = "https://www.alibabagroup.com"
+
+[[params.members]]
+img = "facebook.svg"
+url = "https://facebook.com"
+
+[[params.members]]
+img = "lightbend.svg"
+url = "https://lightbend.com"
+
+[[params.members]]
+img = "pivotal.svg"
+url = "https://pivotal.io"

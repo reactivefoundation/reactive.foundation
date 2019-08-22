@@ -1,8 +1,8 @@
-{{ $members := site.Data.members }}
+{{ $members := site.Params.members }}
 <div class="container member-logos">
   <div class="columns is-vcentered is-multiline">
     {{ range $members }}
-    <div class="column has-text-centered is-one-third">
+    <div class="column is-one-third">
       {{ $img := printf "img/logos/members/%s" .img | relURL }}
       <a class="member-logo" href="{{ .url }}" target="_blank">
         <img src="{{ $img }}">
