@@ -1,0 +1,33 @@
+{{ $projects := site.Params.projects }}
+<div class="columns">
+  {{ range $projects }}
+  {{ $img  := printf "img/logos/projects/%s" .img | relURL }}
+  {{ $desc := .description | markdownify }}
+  <div class="column is-half">
+    <a href="{{ .url }}" target="_blank">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image">
+            <img src="{{ $img }}" alt="{{ .name }} project logo">
+          </figure>
+        </div>
+  
+        <div class="card-content">
+          <h2>
+            {{ .name }}
+          </h2>
+  
+          {{ with $desc }}
+          <hr class="has-background-primary" />
+
+          <div class="content">
+            {{ . }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </a>
+  </div>
+  {{ end }}
+</div>
+

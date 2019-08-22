@@ -30,6 +30,10 @@ $navbar-dropdown-border-top: 1px solid $grey-light
 $section-padding: 2rem 1.5rem
 $family-sans-serif: 'Gotham Book Regular', sans-serif
 
+@import "bulma/sass/utilities/derived-variables"
+
+@import "bulma/bulma"
+
 .bottom-padding
   padding-bottom: 8rem
 
@@ -41,9 +45,8 @@ $family-sans-serif: 'Gotham Book Regular', sans-serif
   .main
     flex: 1
 
-@import "bulma/sass/utilities/derived-variables"
-
-@import "bulma/bulma"
+.card-image
+  background-color: $light
 
 .content
   +tablet
