@@ -73,12 +73,16 @@ img = "lightbend.svg"
 url = "https://lightbend.com"
 
 [[params.members]]
+img = "netifi.svg"
+url = "https://www.netifi.com"
+
+[[params.members]]
 img = "pivotal.svg"
 url = "https://pivotal.io"
 
 # Reactive Foundation projects
 [[params.projects]]
 name = "RSocket"
-url = "https://rsocket.io"
+url = "http://rsocket.io"
 img = "rsocket.svg"
 description = "A binary protocol for use on byte stream transports such as TCP, WebSockets, and Aeron."
