@@ -1,6 +1,6 @@
 {{ $members := site.Params.members }}
 <div class="container member-logos">
-  <div class="columns is-vcentered is-multiline">
+  <div class="columns has-text-centered is-vcentered is-multiline">
     {{ range $members }}
     <div class="column is-one-third">
       {{ $img := printf "img/logos/members/%s" .img | relURL }}
