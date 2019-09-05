@@ -5,7 +5,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
 font_awesome_version = "5.3.1"
-description = "A foundation supporting reactive programming"
+description = "An open source software foundation dedicated to promoting the usage of reactive programming and systems in production."
 copyright = "All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our [Trademark Usage](https://www.linuxfoundation.org/trademark-usage) page. Linux is a registered trademark of Linus Torvalds. [Privacy Policy](http://www.linuxfoundation.org/privacy) and [Terms of Use](http://www.linuxfoundation.org/terms). "
 github_repo = "https://github.com/reactivefoundation"
 
@@ -15,24 +15,14 @@ hero   = "reactivefoundation-stacked-color.png"
 footer = "reactivefoundation-stacked-white.png"
 
 [[params.info.columns]]
-title = "What is the Reactive Foundation?"
-content = "An open source software foundation dedicated to promoting the usage of reactive programming in production."
+title = "What are Reactive Systems?"
+content = "Building modern, cloud native applications often require reactive systems that are responsive, resilient, elastic and message driven. The Reactive Foundation offers a neutral ecosystem of support for open source projects enabling developers building reactive applications on cloud native infrastructure. Reactive Systems is set of principles promoting responsive, resilient, elastic, message-driven design patterns."
 
 [[params.info.columns]]
 title = "What is Reactive Programming?"
 content = """
-A set of principles promoting responsive, resilient, elastic, message-driven design patterns. For more info, see the [Reactive Manifesto](https://www.reactivemanifesto.org/).
+Reactive programming is a subset of asynchronous programming and a paradigm where the availability of new information drives the logic forward rather than having control flow driven by a thread-of-execution. Reactive programming is thus a declarative programming paradigm for data streams and the propagation of change, and simplifies the creation of interactive user interfaces and near-real-time system interaction.
 """
-
-[params.explanation]
-columns = [
-"""
-Building modern, cloud native applications often require reactive systems that are responsive, resilient, elastic and message driven. The Reactive Foundation offers a neutral ecosystem of support for open source projects enabling developers building reactive applications on cloud native infrastructure.
-""",
-"""
-Reactive programming is a declarative programming paradigm for data streams and the propagation of change, and simplifies the creation of interactive user interfaces and near-real-time system animation. .
-"""
-]
 
 [[menu.main]]
 name = "About"
