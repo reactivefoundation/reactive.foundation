@@ -70,6 +70,10 @@ url = "https://www.netifi.com"
 img = "pivotal.svg"
 url = "https://pivotal.io"
 
+[[params.members]]
+img = "vlingo.svg"
+url = "https://vlingo.io"
+
 # Reactive Foundation projects
 [[params.projects]]
 name = "RSocket"
