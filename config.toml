@@ -30,14 +30,34 @@ url = "/about"
 weight = 1
 
 [[menu.main]]
+name = "News"
+identifier = "news"
+weight = 2
+
+[[menu.main]]
 name = "Members"
 identifier = "members"
-weight = 2
+weight = 3
 
 [[menu.main]]
 name = "Projects"
 url = "/projects"
-weight = 3
+weight = 4
+
+[[menu.main]]
+name = "All News"
+url = "/news"
+parent = "news"
+
+[[menu.main]]
+name = "Announcements"
+url = "/news/announcements"
+parent = "news"
+
+[[menu.main]]
+name = "In the News"
+url = "/news/in-the-news"
+parent = "news"
 
 [[menu.main]]
 name = "Current members"
@@ -76,3 +96,6 @@ name = "RSocket"
 url = "http://rsocket.io"
 img = "rsocket.svg"
 description = "A binary protocol for use on byte stream transports such as TCP, WebSockets, and Aeron."
+
+[permalinks]
+news = "/news/:year/:month/:day/:title"

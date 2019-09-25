@@ -7,6 +7,6 @@ Organizations join the Reactive Foundation (RF) because they want to take an act
 # Joining the Reactive Foundation
 
 * [Join Reactive Foundation (existing Linux Foundation members)](https://na3.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=f8d25764-d704-4fcb-9fbc-1fb02e253a92&env=na3-eu1&v=2)
-* [Join Reactive Foundaation(not currently a Linux Foundation member)](https://na3.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=8fe2cfb5-0134-4286-ab90-ae56b0ba75cf&env=na3-eu1&v=2)
+* [Join Reactive Foundation (not currently a Linux Foundation member)](https://na3.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=8fe2cfb5-0134-4286-ab90-ae56b0ba75cf&env=na3-eu1&v=2)
 
 *Note: To join the Reactive Foundation, all members at any level must be a member of the Linux Foundation*
