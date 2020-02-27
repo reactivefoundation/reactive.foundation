@@ -75,6 +75,10 @@ img = "alibaba.svg"
 url = "https://www.alibabagroup.com"
 
 [[params.members]]
+img = "facebook.svg"
+url = "https://facebook.com"
+
+[[params.members]]
 img = "lightbend.svg"
 url = "https://lightbend.com"
 
