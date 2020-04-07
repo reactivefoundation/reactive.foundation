@@ -91,7 +91,7 @@ img = "vlingo.svg"
 url = "https://vlingo.io"
 
 [[params.members]]
-img = "vmware.jpg"
+img = "vmware.png"
 url = "https://www.vmware.com/company.html"
 
 # Reactive Foundation projects
