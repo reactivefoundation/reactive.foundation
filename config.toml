@@ -87,12 +87,12 @@ img = "netifi.svg"
 url = "https://www.netifi.com"
 
 [[params.members]]
-img = "pivotal.svg"
-url = "https://pivotal.io"
-
-[[params.members]]
 img = "vlingo.svg"
 url = "https://vlingo.io"
+
+[[params.members]]
+img = "vmware.jpg"
+url = "https://www.vmware.com/company.html"
 
 # Reactive Foundation projects
 [[params.projects]]
