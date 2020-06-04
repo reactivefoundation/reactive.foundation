@@ -21,7 +21,7 @@ content = "Building modern, cloud native applications often require reactive sys
 [[params.info.columns]]
 title = "What is Reactive Programming?"
 content = """
-Reactive programming is a subset of asynchronous programming and a paradigm where the availability of new information drives the logic forward rather than having control flow driven by a thread-of-execution. Reactive programming is thus a declarative programming paradigm for data streams and the propagation of change, and simplifies the creation of interactive user interfaces and near-real-time system interaction.
+Reactive programming is a subset of asynchronous programming and a paradigm where the availability of new information drives the logic forward rather than having control flow driven by a thread-of-execution. Reactive programming is thus a declarative programming paradigm for data streams and the propagation of change, and simplifies the creation of interactive user interfaces and near real-time system interaction.
 """
 
 [[menu.main]]
