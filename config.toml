@@ -5,7 +5,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
 font_awesome_version = "5.3.1"
-description = "An open source software foundation dedicated to promoting the usage of reactive programming and systems in production."
+description = "The cloud native application foundation"
 copyright = "All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our [Trademark Usage](https://www.linuxfoundation.org/trademark-usage) page. Linux is a registered trademark of Linus Torvalds. [Privacy Policy](http://www.linuxfoundation.org/privacy) and [Terms of Use](http://www.linuxfoundation.org/terms). "
 github_repo = "https://github.com/reactivefoundation"
 
@@ -15,18 +15,18 @@ hero   = "reactivefoundation-stacked-color.png"
 footer = "reactivefoundation-stacked-white.png"
 
 [[params.info.columns]]
-title = "What are Reactive Systems?"
-content = "Building modern, cloud native applications often require reactive systems that are responsive, resilient, elastic and message driven. The Reactive Foundation offers a neutral ecosystem of support for open source projects enabling developers building reactive applications on cloud native infrastructure. Reactive Systems is set of principles promoting responsive, resilient, elastic, message-driven design patterns."
+title = "Reactive Foundation"
+content = "Supported by the [Linux Foundation](https://www.linuxfoundation.org/) the Reactive Foundation is committed to improving the developer experience of designing and building cloud native applications using Reactive architecture, Reactive programming, Reactive systems, streaming, event-sourcing, machine learning, serverless, and other emerging technologies."
 
 [[params.info.columns]]
-title = "What is Reactive Programming?"
+title = "Cloud Native Applications"
 content = """
-Reactive programming is a subset of asynchronous programming and a paradigm where the availability of new information drives the logic forward rather than having control flow driven by a thread-of-execution. Reactive programming is thus a declarative programming paradigm for data streams and the propagation of change, and simplifies the creation of interactive user interfaces and near-real-time system interaction.
+Taking full advantage of cloud infrastructure requires new application architecture, design principles, patterns, and tools. Reactive Foundation will foster collaboration between the industry’s top developers, end users, and vendors to define, support, and evangelize cloud native application design best practices and methodologies. It will also grow and sustain the open source projects and initiatives that are integral to cloud native application development.
 """
 
 [[menu.main]]
 name = "About"
-url = "/about"
+identifier = "about"
 weight = 1
 
 [[menu.main]]
@@ -35,19 +35,34 @@ identifier = "news"
 weight = 2
 
 [[menu.main]]
-name = "Members"
-identifier = "members"
-weight = 3
-
-[[menu.main]]
 name = "Projects"
 url = "/projects"
-weight = 4
+weight = 3
 
 [[menu.main]]
 name = "People"
 url = "/people"
-weight = 5
+weight = 4
+
+[[menu.main]]
+name = "Reactive Foundation"
+url = "/about"
+parent = "about"
+weight = 1
+
+[[menu.main]]
+name = "Members"
+url = "/members"
+parent = "about"
+weight = 2
+
+[[menu.main]]
+name = "Join"
+url = "/join"
+parent = "about"
+weight = 3
+
+
 
 [[menu.main]]
 name = "All News"
@@ -63,16 +78,6 @@ parent = "news"
 name = "In the News"
 url = "/news/in-the-news"
 parent = "news"
-
-[[menu.main]]
-name = "Current members"
-url = "/members"
-parent = "members"
-
-[[menu.main]]
-name = "Join"
-url = "/join"
-parent = "members"
 
 # Reactive Foundation members
 [[params.members]]
