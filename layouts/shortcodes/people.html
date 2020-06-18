@@ -1,0 +1,35 @@
+{{ $people := site.Params.people }}
+<div class="columns is-multiline">
+  {{ range $people }}
+  {{ $img  := printf "img/people/%s" .img | relURL }}
+  {{ $bio := .bio | markdownify }}
+  <div class="column is-half">
+    <a href="{{ .url }}" target="_blank">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image">
+            <img src="{{ $img }}" alt="{{ .name }} people image">
+          </figure>
+        </div>
+  
+        <div class="card-content">
+          <h2>
+            {{ .name }}
+          </h2>
+          {{ if ne .title "" }} 
+             <h3>{{ .title }}</h3>
+          {{ end }}
+
+          {{ with $bio }}
+          <hr class="has-background-primary" />
+          
+          <div class="content">
+            {{ . }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </a>
+  </div>
+  {{ end }}
+</div>

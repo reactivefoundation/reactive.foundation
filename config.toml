@@ -45,6 +45,11 @@ url = "/projects"
 weight = 4
 
 [[menu.main]]
+name = "People"
+url = "/people"
+weight = 5
+
+[[menu.main]]
 name = "All News"
 url = "/news"
 parent = "news"
@@ -100,6 +105,41 @@ name = "RSocket"
 url = "http://rsocket.io"
 img = "rsocket.svg"
 description = "A binary protocol for use on byte stream transports such as TCP, WebSockets, and Aeron."
+
+# Reactive Foundation People
+[[params.people]]
+name = "Jonas Bonér"
+title = "Chairman"
+url = "http://jonasboner.com"
+img = "Headshot-JonasBoner.JPG"
+bio = "Jonas Bonér is founder and CTO of Lightbend, creator of the Akka project, initiator and co-author of the Reactive Manifesto, and a Java Champion."
+
+[[params.people]]
+name = "Ben Hale"
+img = "Headshot-BenHale.jpg"
+bio = "Ben Hale leads VMware's Modern Application Platforms Business Unit Java efforts including being a founding member of the Cloud Native Buildpacks CNCF Sandbox project and leading the Cloud Foundry Java Buildpack. In addition to this work, he’s very involved in the Reactive Programming scene founding the Reactive Relational Database Connectivity (R2DBC) project, being a spec lead and committer on the RSocket Reactive networking protocol, and being a long-time contributor to Project Reactor."
+
+[[params.people]]
+name = "Jackie Chen"
+img = "Headshot-JackieChen.png"
+bio = "Jackie is a Senior Staff Engineer at Alibaba, the author of Alibaba RSocket Broker, and 20 years of Java experience."
+
+[[params.people]]
+name = "Steve Gury"
+img = "Headshot-SteveGury.jpeg"
+bio = "Steve Gury is a Software Engineer at Facebook working on the Thrift RPC framework. His current focus is on the cross-language support of Thrift. He has spent more than 15 years developing distributed systems and learning from his numerous mistakes.<br / >Before Facebook, Steve worked at Netflix on new distributed system architectures (RSocket, RxJava, Hystrix), and at Twitter on the Finagle RPC framework. Before working in Silicon Valley, he started his career in France designing architectures for large scale online multiplayer games (MMORPG).<br />Steve received two master degrees from the French École des Mines in Computer Science and Control Theory. Outside of work, he enjoys running and is always training for a half-marathon."
+
+[[params.people]]
+name = "Alexy Khrabov"
+title = "General Manager"
+img = "Headshot-AlexyKhrabov.jpeg"
+bio = "Dr. Alexy Khrabrov is the General Manager of the Reactive Foundation.  He is the founder and organizer of Scale By the Bay, the independent conference for thoughtful software and data engineering, running for eight years.  Alexy founded and run key engineering meetups in the Bay Area, including Sf Scala, SF Spark, Reactive Systems, Bay Area AI, and others.  Previously Dr. Khrabrov was a Chief Community Officer at Trusted IoT Alliance, Chief Scientist at Nitro Software, a cofounder of Versal, a software engineer at Amazon and several Bay Area startups, and a researcher at Dartmouth College and NEC Research Institute.  He received his PhD in Computer Science from the University of Pennsylvania.  Dr. Khrabrov holds several patents, including on influence ranking in social networks and on synchronizable transactional databases."
+
+[[params.people]]
+name = "Vaughn Vernon"
+title = "Treasurer"
+img = "Headshot-VaughnVernon.jpeg"
+bio = "Vaughn Vernon is an entrepreneur, software developer, and architect with more than 35 years of experience in a broad range of business domains. Vaughn is a leading expert in Domain-Driven Design and reactive, a champion of simplicity, and he is the founder and chief architect of the VLINGO/PLATFORM. Along with his three best selling books, Vaughn was recently commissioned by Pearson/Addison-Wesley as curator and editor of his own Vaughn Vernon Signature Series."
 
 [permalinks]
 news = "/news/:year/:month/:day/:title"
