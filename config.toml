@@ -2,6 +2,8 @@ title        = "The Reactive Foundation"
 baseURL      = "https://reactive.foundation"
 languageCode = "en-us"
 disableKinds = ["taxonomy", "taxonomyTerm"]
+[markup.goldmark.renderer]
+unsafe= true
 
 [params]
 font_awesome_version = "5.3.1"
@@ -30,19 +32,24 @@ identifier = "about"
 weight = 1
 
 [[menu.main]]
-name = "News"
-identifier = "news"
+name = "Projects"
+url = "/projects"
 weight = 2
 
 [[menu.main]]
-name = "Projects"
-url = "/projects"
+name = "People"
+identifier = "people"
 weight = 3
 
 [[menu.main]]
-name = "People"
-url = "/people"
+name = "Community"
+identifier = "community"
 weight = 4
+
+[[menu.main]]
+name = "News"
+identifier = "news"
+weight = 5
 
 [[menu.main]]
 name = "Reactive Foundation"
@@ -62,7 +69,40 @@ url = "/join"
 parent = "about"
 weight = 3
 
+[[menu.main]]
+name = "Governing Board"
+url = "/people"
+parent = "people"
 
+[[menu.main]]
+name = "Reactive Summit"
+url = "/reactive-summit"
+parent = "community"
+weight = 1
+
+[[menu.main]]
+name = "Meetups"
+url = "https://www.meetup.com/topics/reactive-programming/"
+parent = "community"
+weight = 2
+
+[[menu.main]]
+name = "Mailing Lists"
+url = "https://lists.reactive.foundation/g/main"
+parent = "community"
+weight = 3
+
+[[menu.main]]
+name = "Discourse"
+url = "https://community.reactive.foundation/"
+parent = "community"
+weight = 4
+
+[[menu.main]]
+name = "Github"
+url = "https://github.com/reactivefoundation"
+parent = "community"
+weight = 5
 
 [[menu.main]]
 name = "All News"
