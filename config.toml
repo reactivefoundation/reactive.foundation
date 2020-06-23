@@ -2,12 +2,15 @@ title        = "The Reactive Foundation"
 baseURL      = "https://reactive.foundation"
 languageCode = "en-us"
 disableKinds = ["taxonomy", "taxonomyTerm"]
+[markup.goldmark.renderer]
+unsafe= true
 
 [params]
 font_awesome_version = "5.3.1"
-description = "An open source software foundation dedicated to promoting the usage of reactive programming and systems in production."
+description = "The cloud native application foundation"
 copyright = "All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our [Trademark Usage](https://www.linuxfoundation.org/trademark-usage) page. Linux is a registered trademark of Linus Torvalds. [Privacy Policy](http://www.linuxfoundation.org/privacy) and [Terms of Use](http://www.linuxfoundation.org/terms). "
 github_repo = "https://github.com/reactivefoundation"
+join_now = "/join/"
 
 [params.logos]
 navbar = "reactivefoundation-horizontal-white.png"
@@ -15,38 +18,97 @@ hero   = "reactivefoundation-stacked-color.png"
 footer = "reactivefoundation-stacked-white.png"
 
 [[params.info.columns]]
-title = "What are Reactive Systems?"
-content = "Building modern, cloud native applications often require reactive systems that are responsive, resilient, elastic and message driven. The Reactive Foundation offers a neutral ecosystem of support for open source projects enabling developers building reactive applications on cloud native infrastructure. Reactive Systems is set of principles promoting responsive, resilient, elastic, message-driven design patterns."
+title = "Reactive Foundation"
+content = "Supported by the [Linux Foundation](https://www.linuxfoundation.org/) the Reactive Foundation is committed to improving the developer experience of designing and building cloud native applications using Reactive architecture, Reactive programming, Reactive systems, streaming, event-sourcing, machine learning, serverless, and other emerging technologies."
 
 [[params.info.columns]]
-title = "What is Reactive Programming?"
+title = "Cloud Native Applications"
 content = """
-Reactive programming is a subset of asynchronous programming and a paradigm where the availability of new information drives the logic forward rather than having control flow driven by a thread-of-execution. Reactive programming is thus a declarative programming paradigm for data streams and the propagation of change, and simplifies the creation of interactive user interfaces and near-real-time system interaction.
+Taking full advantage of cloud infrastructure requires new application architecture, design principles, patterns, and tools. Reactive Foundation will foster collaboration between the industry’s top developers, end users, and vendors to define, support, and evangelize cloud native application design best practices and methodologies. It will also grow and sustain the open source projects and initiatives that are integral to cloud native application development.
 """
 
 [[menu.main]]
 name = "About"
-url = "/about"
+identifier = "about"
 weight = 1
-
-[[menu.main]]
-name = "News"
-identifier = "news"
-weight = 2
-
-[[menu.main]]
-name = "Members"
-identifier = "members"
-weight = 3
 
 [[menu.main]]
 name = "Projects"
 url = "/projects"
-weight = 4
+weight = 2
 
 [[menu.main]]
 name = "People"
+identifier = "people"
+weight = 3
+
+[[menu.main]]
+name = "Community"
+identifier = "community"
+weight = 4
+
+[[menu.main]]
+name = "News"
+identifier = "news"
+weight = 5
+
+[[menu.main]]
+name = "Reactive Foundation"
+url = "/about"
+parent = "about"
+weight = 1
+
+[[menu.main]]
+name = "Reactive Manifesto"
+url = "https://www.reactivemanifesto.org/"
+parent = "about"
+weight = 2
+
+[[menu.main]]
+name = "Members"
+url = "/members"
+parent = "about"
+weight = 3
+
+[[menu.main]]
+name = "Join"
+url = "/join"
+parent = "about"
+weight = 4
+
+[[menu.main]]
+name = "Governing Board"
 url = "/people"
+parent = "people"
+
+[[menu.main]]
+name = "Reactive Summit"
+url = "/reactive-summit"
+parent = "community"
+weight = 1
+
+[[menu.main]]
+name = "Meetups"
+url = "https://www.meetup.com/topics/reactive-programming/"
+parent = "community"
+weight = 2
+
+[[menu.main]]
+name = "Mailing Lists"
+url = "https://lists.reactive.foundation/g/main"
+parent = "community"
+weight = 3
+
+[[menu.main]]
+name = "Discourse"
+url = "https://community.reactive.foundation/"
+parent = "community"
+weight = 4
+
+[[menu.main]]
+name = "Github"
+url = "https://github.com/reactivefoundation"
+parent = "community"
 weight = 5
 
 [[menu.main]]
@@ -63,16 +125,6 @@ parent = "news"
 name = "In the News"
 url = "/news/in-the-news"
 parent = "news"
-
-[[menu.main]]
-name = "Current members"
-url = "/members"
-parent = "members"
-
-[[menu.main]]
-name = "Join"
-url = "/join"
-parent = "members"
 
 # Reactive Foundation members
 [[params.members]]
@@ -109,35 +161,37 @@ description = "A binary protocol for use on byte stream transports such as TCP, 
 # Reactive Foundation People
 [[params.people]]
 name = "Jonas Bonér"
-title = "Chairman"
-url = "http://jonasboner.com"
+title = "Lightbend (Chairman)"
 img = "Headshot-JonasBoner.JPG"
-bio = "Jonas Bonér is founder and CTO of Lightbend, creator of the Akka project, initiator and co-author of the Reactive Manifesto, and a Java Champion."
-
-[[params.people]]
-name = "Ben Hale"
-img = "Headshot-BenHale.jpg"
-bio = "Ben Hale leads VMware's Modern Application Platforms Business Unit Java efforts including being a founding member of the Cloud Native Buildpacks CNCF Sandbox project and leading the Cloud Foundry Java Buildpack. In addition to this work, he’s very involved in the Reactive Programming scene founding the Reactive Relational Database Connectivity (R2DBC) project, being a spec lead and committer on the RSocket Reactive networking protocol, and being a long-time contributor to Project Reactor."
+bio = "Jonas Bonér is founder and CTO of Lightbend, creator of the Akka project, initiator and co-author of the Reactive Manifesto, and a Java Champion. Learn more at: http://jonasboner.com."
 
 [[params.people]]
 name = "Jackie Chen"
+title = "Alibaba"
 img = "Headshot-JackieChen.png"
 bio = "Jackie is a Senior Staff Engineer at Alibaba, the author of Alibaba RSocket Broker, and 20 years of Java experience."
 
 [[params.people]]
 name = "Steve Gury"
+title = "Facebook"
 img = "Headshot-SteveGury.jpeg"
-bio = "Steve Gury is a Software Engineer at Facebook working on the Thrift RPC framework. His current focus is on the cross-language support of Thrift. He has spent more than 15 years developing distributed systems and learning from his numerous mistakes.<br / >Before Facebook, Steve worked at Netflix on new distributed system architectures (RSocket, RxJava, Hystrix), and at Twitter on the Finagle RPC framework. Before working in Silicon Valley, he started his career in France designing architectures for large scale online multiplayer games (MMORPG).<br />Steve received two master degrees from the French École des Mines in Computer Science and Control Theory. Outside of work, he enjoys running and is always training for a half-marathon."
+bio = "Steve Gury is a Software Engineer at Facebook working on the Thrift RPC framework. His current focus is on the cross-language support of Thrift. He has spent more than 15 years developing distributed systems and learning from his numerous mistakes. Before Facebook, Steve worked at Netflix on new distributed system architectures (RSocket, RxJava, Hystrix), and at Twitter on the Finagle RPC framework. Before working in Silicon Valley, he started his career in France designing architectures for large scale online multiplayer games (MMORPG). Steve received two master degrees from the French École des Mines in Computer Science and Control Theory. Outside of work, he enjoys running and is always training for a half-marathon."
+
+[[params.people]]
+name = "Ben Hale"
+title = "VMware"
+img = "Headshot-BenHale.jpg"
+bio = "Ben Hale leads VMware's Modern Application Platforms Business Unit Java efforts including being a founding member of the Cloud Native Buildpacks CNCF Sandbox project and leading the Cloud Foundry Java Buildpack. In addition to this work, he’s very involved in the Reactive Programming scene founding the Reactive Relational Database Connectivity (R2DBC) project, being a spec lead and committer on the RSocket Reactive networking protocol, and being a long-time contributor to Project Reactor."
 
 [[params.people]]
 name = "Alexy Khrabov"
-title = "General Manager"
+title = "Reactive Foundation (General Manager)"
 img = "Headshot-AlexyKhrabov.jpeg"
 bio = "Dr. Alexy Khrabrov is the General Manager of the Reactive Foundation.  He is the founder and organizer of Scale By the Bay, the independent conference for thoughtful software and data engineering, running for eight years.  Alexy founded and run key engineering meetups in the Bay Area, including Sf Scala, SF Spark, Reactive Systems, Bay Area AI, and others.  Previously Dr. Khrabrov was a Chief Community Officer at Trusted IoT Alliance, Chief Scientist at Nitro Software, a cofounder of Versal, a software engineer at Amazon and several Bay Area startups, and a researcher at Dartmouth College and NEC Research Institute.  He received his PhD in Computer Science from the University of Pennsylvania.  Dr. Khrabrov holds several patents, including on influence ranking in social networks and on synchronizable transactional databases."
 
 [[params.people]]
 name = "Vaughn Vernon"
-title = "Treasurer"
+title = "Vlingo (Treasurer)"
 img = "Headshot-VaughnVernon.jpeg"
 bio = "Vaughn Vernon is an entrepreneur, software developer, and architect with more than 35 years of experience in a broad range of business domains. Vaughn is a leading expert in Domain-Driven Design and reactive, a champion of simplicity, and he is the founder and chief architect of the VLINGO/PLATFORM. Along with his three best selling books, Vaughn was recently commissioned by Pearson/Addison-Wesley as curator and editor of his own Vaughn Vernon Signature Series."
 
