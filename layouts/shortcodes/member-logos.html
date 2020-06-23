@@ -1,13 +1,16 @@
 {{ $members := site.Params.members }}
-<div class="container member-logos">
-  <div class="columns has-text-centered is-vcentered is-multiline">
-    {{ range $members }}
-    <div class="column is-one-third">
+
+<div class="columns is-multiline has-text-centered is-vcentered">
+  {{ range $members }}
+  <div class="column is-one-third">
+    <div class="member-grid">
       {{ $img := printf "img/logos/members/%s" .img | relURL }}
-      <a class="member-logo" href="{{ .url }}" target="_blank">
-        <img src="{{ $img }}">
+      <a class="member-logo" href="{{ .url }}">
+        <figure>
+          <img src="{{ $img }}">
+        </figure>
       </a>
     </div>
-    {{ end }}
   </div>
+  {{ end }}
 </div>

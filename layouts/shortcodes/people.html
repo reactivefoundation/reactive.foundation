@@ -4,32 +4,29 @@
   {{ $img  := printf "img/people/%s" .img | relURL }}
   {{ $bio := .bio | markdownify }}
   <div class="column is-half">
-    <a href="{{ .url }}" target="_blank">
-      <div class="card">
-        <div class="card-image">
-          <figure class="image">
-            <img src="{{ $img }}" alt="{{ .name }} people image">
-          </figure>
-        </div>
-  
-        <div class="card-content">
-          <h2>
-            {{ .name }}
-          </h2>
-          {{ if ne .title "" }} 
-             <h3>{{ .title }}</h3>
-          {{ end }}
-
-          {{ with $bio }}
-          <hr class="has-background-primary" />
-          
-          <div class="content">
-            {{ . }}
-          </div>
-          {{ end }}
-        </div>
+    
+    <div class="card">
+      
+      <div class="people-meta">
+        <img src="{{ $img }}" alt="{{ .name }}">
+        <h3>
+          {{ .name }}
+        </h3>
+        {{ if ne .title "" }} 
+           <h4>{{ .title }}</h4>
+        {{ end }}
       </div>
-    </a>
+      
+      <div class="people-bio">
+        {{ with $bio }}
+        <hr class="has-background-primary" />
+        <div>
+          <p>{{ . }}</p>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  
   </div>
   {{ end }}
 </div>

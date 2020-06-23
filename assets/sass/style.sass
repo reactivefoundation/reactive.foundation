@@ -45,6 +45,18 @@ $family-sans-serif: 'Gotham Book Regular', sans-serif
   .main
     flex: 1
 
+a[target="_blank"]:after
+  content: " "
+  background-image: url("data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNNDMyLDMyMEg0MDBhMTYsMTYsMCwwLDAtMTYsMTZWNDQ4SDY0VjEyOEgyMDhhMTYsMTYsMCwwLDAsMTYtMTZWODBhMTYsMTYsMCwwLDAtMTYtMTZINDhBNDgsNDgsMCwwLDAsMCwxMTJWNDY0YTQ4LDQ4LDAsMCwwLDQ4LDQ4SDQwMGE0OCw0OCwwLDAsMCw0OC00OGgwVjMzNkExNiwxNiwwLDAsMCw0MzIsMzIwWk00ODgsMEgzNjBDMzM4LjYzLDAsMzI4LDI1LjkxLDM0Myw0MWwzNS43MywzNS43M0wxMzUsMzIwLjM3YTI0LDI0LDAsMCwwLS4wNiwzMy45NGwuMDYuMDZMMTU3LjY3LDM3N2EyNCwyNCwwLDAsMCwzMy45NC4wNmwuMDYtLjA2TDQzNS4yOCwxMzMuMzIsNDcxLDE2OWMxNSwxNSw0MSw0LjUsNDEtMTdWMjRBMjQsMjQsMCwwLDAsNDg4LDBaIiBzdHlsZT0iZmlsbDojYmYyZWFlIi8+PC9zdmc+")
+  background-repeat: no-repeat
+  margin-left: 2px 
+  width: 12px
+  height: 12px
+  display: inline-block
+.member-grid, .projects
+  a[target="_blank"]:after
+    display: none
+
 .card-image
   background-color: $light
 
@@ -61,19 +73,22 @@ $family-sans-serif: 'Gotham Book Regular', sans-serif
 .pricing-table
   width: 50%
 
-.member-logos
-  margin-top: 2rem
-
-  .member-logo
-    justify-content: center
-
+.member-grid
+  box-shadow: 0px 0px 2px $reactive-black
+  figure
+    height: 10rem
+    background: white
+    text-align: center
+    line-height: 10rem
     img
-      +desktop
-        width: 75%
-        margin-bottom: 2rem
-      +mobile
-        margin-bottom: 1.5rem
-        width: 70%
+      max-height: 100px
+      max-width: 80%
+      text-align: left
+      vertical-align: middle
+      display: inline-block
+.member-grid:hover 
+  box-shadow: 0px 0 8px $dark
+  
 
 .read-more
   margin-top: 5rem
@@ -124,3 +139,40 @@ hr.home
   .faq
     & + .faq
       margin-top: 2rem
+
+.card
+  margin-top: 2rem
+  height: 100%
+  background-color: $light
+
+.people-meta
+  padding: 2rem 1rem 0rem 1rem
+  position: relative
+  img
+    max-height: 100px
+    max-width: 90%
+    object-fit: cover
+    background: white
+    border-radius: 1000px
+    border: 2px solid $white
+    height: 100px
+    width: 100px
+    display: block
+    margin-left: auto
+    margin-right: auto
+  h3
+    text-align: center
+    font-size: 1.5rem
+    margin-top: .5rem!important
+  h4
+    text-align: center
+    font-size: 1.125rem
+    margin-top: .5rem
+    margin-bottom: 0rem!important
+
+.people-bio
+  text-align: left
+  padding: 0rem 2rem 2rem 2rem
+  position: relative
+  p
+    font-size: 16px
