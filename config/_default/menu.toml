@@ -1,0 +1,98 @@
+[[main]]
+name = "About"
+identifier = "about"
+weight = 1
+
+[[main]]
+name = "Projects"
+url = "/projects"
+weight = 2
+
+[[main]]
+name = "People"
+identifier = "people"
+weight = 3
+
+[[main]]
+name = "Community"
+identifier = "community"
+weight = 4
+
+[[main]]
+name = "News"
+identifier = "news"
+weight = 5
+
+[[main]]
+name = "Reactive Foundation"
+url = "/about"
+parent = "about"
+weight = 1
+
+[[main]]
+name = "Reactive Manifesto"
+url = "https://www.reactivemanifesto.org/"
+parent = "about"
+weight = 2
+
+[[main]]
+name = "Members"
+url = "/members"
+parent = "about"
+weight = 3
+
+[[main]]
+name = "Join"
+url = "/join"
+parent = "about"
+weight = 4
+
+[[main]]
+name = "Governing Board"
+url = "/people"
+parent = "people"
+
+[[main]]
+name = "Reactive Summit"
+url = "/reactive-summit"
+parent = "community"
+weight = 1
+
+[[main]]
+name = "Meetups"
+url = "https://www.meetup.com/topics/reactive-programming/"
+parent = "community"
+weight = 2
+
+[[main]]
+name = "Mailing Lists"
+url = "https://lists.reactive.foundation/g/main"
+parent = "community"
+weight = 3
+
+[[main]]
+name = "Discourse"
+url = "https://community.reactive.foundation/"
+parent = "community"
+weight = 4
+
+[[main]]
+name = "Github"
+url = "https://github.com/reactivefoundation"
+parent = "community"
+weight = 5
+
+[[main]]
+name = "All News"
+url = "/news"
+parent = "news"
+
+[[main]]
+name = "Announcements"
+url = "/news/announcements"
+parent = "news"
+
+[[main]]
+name = "In the News"
+url = "/news/in-the-news"
+parent = "news"
