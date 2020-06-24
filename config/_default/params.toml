@@ -56,7 +56,7 @@ description = "A binary protocol for use on byte stream transports such as TCP, 
 # Reactive Foundation People
 [[people]]
 name = "Jonas Bonér"
-title = "Lightbend (Chairman)"
+title = "Lightbend (Chair)"
 img = "Headshot-JonasBoner.JPG"
 bio = "Jonas Bonér is founder and CTO of Lightbend, creator of the Akka project, initiator and co-author of the Reactive Manifesto, and a Java Champion. Learn more at: http://jonasboner.com."
 

@@ -19,3 +19,6 @@ It's the right design and architecture for cloud native applications providing t
 
 ## Reactive Manifesto
 Published in 2013 and now translated into 15 languages with endorsements by more than 28,000 technologists, the [Reactive Manifesto](https://www.reactivemanifesto.org/) set out key tenets for building systems that react to modern demands on application architecture at scale. The tenets of the Manifesto were not new. They originated in work by Jim Gray and Pat Helland on the Tandem System and Joe Armstrong and Robert Virding on Erlang. Only in the past decade have developers been forced to re-think best practices for application architecture in a world of mobile, multicore, cloud computing.
+
+## Join Us
+Membership provides a rare, ground floor opportunity to shape the industry direction and open source project adoption for cloud native applications. We invite you to [join us](/join).
