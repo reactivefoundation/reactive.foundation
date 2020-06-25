@@ -8,6 +8,7 @@ Our goal is to serve as a vendor-neutral home for the relevant projects and init
 
 ## Reactive Architecture
 Reactive is a proven approach to thinking, designing, building, and reasoning about software systems—in particular, distributed, highly concurrent, and data-intensive applications. Use cases include:
+
  - Real-time analytics
  - Internet of Things
  - Real-time decisions
