@@ -12,8 +12,6 @@ Reactive is a proven approach to thinking, designing, building, and reasoning ab
 * Internet of Things
 * Real-time decisions
 * Modern eCommerce
-* Real-time personalization
-* Real-time fraud detection
 
 It's the right design and architecture for cloud native applications providing the foundation for runtime behavior excellence, resource efficiency, and meeting business service level agreements for uptime, latency, scale, and throughput as described in the Reactive Manifesto.
 
