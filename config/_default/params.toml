@@ -1,0 +1,91 @@
+font_awesome_version = "5.3.1"
+description = "The cloud native application foundation"
+copyright = "All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our [Trademark Usage](https://www.linuxfoundation.org/trademark-usage) page. Linux is a registered trademark of Linus Torvalds. [Privacy Policy](http://www.linuxfoundation.org/privacy) and [Terms of Use](http://www.linuxfoundation.org/terms). "
+github_repo = "https://github.com/reactivefoundation"
+join_now = "/join/"
+
+[logos]
+navbar = "reactivefoundation-horizontal-white.png"
+hero   = "reactivefoundation-stacked-color.png"
+footer = "reactivefoundation-stacked-white.png"
+
+[[info.columns]]
+title = "Reactive Foundation"
+content = "Supported by the [Linux Foundation](https://www.linuxfoundation.org/) the Reactive Foundation is committed to improving the developer experience of designing and building cloud native applications using Reactive architecture, Reactive programming, Reactive systems, streaming, event-sourcing, machine learning, serverless, and other emerging technologies."
+
+[[info.columns]]
+title = "Cloud Native Applications"
+content = """
+Taking full advantage of cloud infrastructure requires new application architecture, design principles, patterns, and tools. Reactive Foundation will foster collaboration between the industry’s top developers, end users, and vendors to define, support, and evangelize cloud native application design best practices and methodologies. It will also grow and sustain the open source projects and initiatives that are integral to cloud native application development.
+"""
+
+
+
+# Reactive Foundation members
+[[members]]
+img = "alibaba.svg"
+url = "https://www.alibabagroup.com"
+
+[[members]]
+img = "facebook.svg"
+url = "https://facebook.com"
+
+[[members]]
+img = "lightbend.svg"
+url = "https://lightbend.com"
+
+[[members]]
+img = "netifi.svg"
+url = "https://www.netifi.com"
+
+[[members]]
+img = "vlingo.svg"
+url = "https://vlingo.io"
+
+[[members]]
+img = "vmware.png"
+url = "https://www.vmware.com/company.html"
+
+# Reactive Foundation projects
+[[projects]]
+name = "RSocket"
+url = "http://rsocket.io"
+img = "rsocket.svg"
+description = "A binary protocol for use on byte stream transports such as TCP, WebSockets, and Aeron."
+
+# Reactive Foundation People
+[[people]]
+name = "Jonas Bonér"
+title = "Lightbend (Chair)"
+img = "Headshot-JonasBoner.JPG"
+bio = "Jonas Bonér is founder and CTO of Lightbend, creator of the Akka project, initiator and co-author of the Reactive Manifesto, and a Java Champion. Learn more at: http://jonasboner.com."
+
+[[people]]
+name = "Jackie Chen"
+title = "Alibaba"
+img = "Headshot-JackieChen.jpg"
+bio = "Jackie is a Senior Staff Engineer at Alibaba, the author of Alibaba RSocket Broker, and 20 years of Java experience."
+
+[[people]]
+name = "Steve Gury"
+title = "Facebook"
+img = "Headshot-SteveGury.jpeg"
+bio = "Steve Gury is a Software Engineer at Facebook working on the Thrift RPC framework. His current focus is on the cross-language support of Thrift. He has spent more than 15 years developing distributed systems and learning from his numerous mistakes. Before Facebook, Steve worked at Netflix on new distributed system architectures (RSocket, RxJava, Hystrix), and at Twitter on the Finagle RPC framework. Before working in Silicon Valley, he started his career in France designing architectures for large scale online multiplayer games (MMORPG). Steve received two master degrees from the French École des Mines in Computer Science and Control Theory. Outside of work, he enjoys running and is always training for a half-marathon."
+
+[[people]]
+name = "Ben Hale"
+title = "VMware"
+img = "Headshot-BenHale.jpg"
+bio = "Ben Hale leads VMware's Modern Application Platforms Business Unit Java efforts including being a founding member of the Cloud Native Buildpacks CNCF Sandbox project and leading the Cloud Foundry Java Buildpack. In addition to this work, he’s very involved in the Reactive Programming scene founding the Reactive Relational Database Connectivity (R2DBC) project, being a spec lead and committer on the RSocket Reactive networking protocol, and being a long-time contributor to Project Reactor."
+
+[[people]]
+name = "Alexy Khrabov"
+title = "Reactive Foundation (General Manager)"
+img = "Headshot-AlexyKhrabov.jpeg"
+bio = "Dr. Alexy Khrabrov is the General Manager of the Reactive Foundation.  He is the founder and organizer of Scale By the Bay, the independent conference for thoughtful software and data engineering, running for eight years.  Alexy founded and run key engineering meetups in the Bay Area, including Sf Scala, SF Spark, Reactive Systems, Bay Area AI, and others.  Previously Dr. Khrabrov was a Chief Community Officer at Trusted IoT Alliance, Chief Scientist at Nitro Software, a cofounder of Versal, a software engineer at Amazon and several Bay Area startups, and a researcher at Dartmouth College and NEC Research Institute.  He received his PhD in Computer Science from the University of Pennsylvania.  Dr. Khrabrov holds several patents, including on influence ranking in social networks and on synchronizable transactional databases."
+
+[[people]]
+name = "Vaughn Vernon"
+title = "Vlingo (Treasurer)"
+img = "Headshot-VaughnVernon.jpeg"
+bio = "Vaughn Vernon is an entrepreneur, software developer, and architect with more than 35 years of experience in a broad range of business domains. Vaughn is a leading expert in Domain-Driven Design and reactive, a champion of simplicity, and he is the founder and chief architect of the VLINGO/PLATFORM. Along with his three best selling books, Vaughn was recently commissioned by Pearson/Addison-Wesley as curator and editor of his own Vaughn Vernon Signature Series."

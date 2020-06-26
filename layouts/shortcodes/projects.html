@@ -3,7 +3,7 @@
   {{ range $projects }}
   {{ $img  := printf "img/logos/projects/%s" .img | relURL }}
   {{ $desc := .description | markdownify }}
-  <div class="column is-half">
+  <div class="column is-half projects">
     <a href="{{ .url }}" target="_blank">
       <div class="card">
         <div class="card-image">

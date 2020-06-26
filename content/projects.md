@@ -1,6 +1,5 @@
 ---
-title: Reactive Foundation projects
-description: What's under the Foundation's purview
+title: Reactive Foundation Projects
 ---
 
 {{< projects >}}

@@ -4,10 +4,11 @@
 {{ $menu       := site.Menus.main }}
 {{ $currentUrl := .RelPermalink }}
 {{ $github     := site.Params.github_repo }}
+{{ $join       := site.Params.join_now }}
 <nav class="navbar is-fixed-top is-primary">
   <div class="container">
     <div class="navbar-brand">
-      <a class="navbar-item" href="{{ $home }}">
+      <a class="navbar-item" href="/">
         <img src="{{ $logoUrl }}" alt="{{ site.Title }} navbar logo">
       </a>
 
@@ -43,12 +44,9 @@
         {{ end }}
 
         <div class="navbar-item">
-          <a class="button is-black" href="{{ $github }}" target="_blank">
-            <span class="icon">
-              <i class="fab fa-github"></i>
-            </span>
+          <a class="button is-black" href="{{ $join }}">
             <span class="has-text-weight-bold">
-              GitHub
+              JOIN NOW
             </span>
           </a>
         </div>
