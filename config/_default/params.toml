@@ -11,7 +11,7 @@ footer = "reactivefoundation-stacked-white.png"
 
 [[info.columns]]
 title = "Reactive Foundation"
-content = "Supported by the [Linux Foundation](https://www.linuxfoundation.org/) the Reactive Foundation is committed to improving the developer experience of designing and building cloud native applications using Reactive architecture, Reactive programming, Reactive systems, streaming, event-sourcing, machine learning, serverless, and other emerging technologies."
+content = "Reactive Foundation, as part of the [Linux Foundation](https://www.linuxfoundation.org/), is committed to improving the developer experience of designing and building cloud native applications using Reactive architecture, Reactive programming, Reactive systems, streamingReactive Streams, event-sourcing, streaming machine learning, serverless, and other emerging technologies."
 
 [[info.columns]]
 title = "Cloud Native Applications"
