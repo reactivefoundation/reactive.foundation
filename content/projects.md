@@ -1,5 +1,6 @@
 ---
-title: Reactive Foundation Projects
+title: Reactive Foundation
+description: Projects
 ---
 
 {{< projects >}}

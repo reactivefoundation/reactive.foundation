@@ -2,7 +2,7 @@
 title: Reactive Foundation
 description: About Reactive Foundation
 ---
-Reactive Foundation is committed to improving the developer experience of designing and building cloud native applications using Reactive architecture, Reactive programming, Reactive systems, streaming, event-sourcing, machine learning, serverless, and other emerging technologies. 
+Reactive Foundation is committed to improving the developer experience of designing and building cloud native applications using Reactive architecture, Reactive programming, Reactive systems, streamingReactive Streams, event-sourcing, streaming machine learning, serverless, and other emerging technologies
 
 Our goal is to serve as a vendor-neutral home for the relevant projects and initiatives that developers require for cloud native application development and provide critical education around the new architectural principles necessary to take full advantage of the cloud. It's here that Reactive architecture leads the way.
 

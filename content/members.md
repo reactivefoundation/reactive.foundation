@@ -1,5 +1,6 @@
 ---
-title: Reactive Foundation members
+title: Reactive Foundation
+description: Members
 ---
 
 {{< member-logos >}}

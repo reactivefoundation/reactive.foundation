@@ -1,3 +1,4 @@
 ---
-title: Announcements
+title: Reactive Foundation
+description: Announcements
 ---
