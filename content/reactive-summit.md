@@ -1,5 +1,6 @@
 ---
-title: Reactive Foundation Community Conference
+title: Reactive Foundation
+description: Reactive Summit
 ---
 
 On November 11, 2020, [Reactive Summit](https://www.reactivesummit.org/) returns with a one-day virtual format. [The CFP is open!](https://forms.gle/pCNu8jPzMZYvqQSQ9)

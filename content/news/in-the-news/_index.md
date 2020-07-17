@@ -1,3 +1,4 @@
 ---
-title: In The News
+title: Reactive Foundation
+description: In The News
 ---
