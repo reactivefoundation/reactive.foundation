@@ -13,7 +13,7 @@ Members of Reactive Foundation must also be members of the Linux Foundation. If 
 
 | Membership Class  | Not yet a Linux<br>Foundation Member✝︎ | Already a Linux<br>Foundation member |
 |-------------------|---------------------------------|-------------------|
-| Platnium          | $120,000 USD | $100,000 USD |
+| Platinum          | $120,000 USD | $100,000 USD |
 | Gold              | $20,000 USD | $50,000 USD |
 | Silver            | See Fee Schedule Below | See Fee Schedule Below | 
 | End User          | $25,000 | $5,000 |
@@ -29,4 +29,4 @@ Members of Reactive Foundation must also be members of the Linux Foundation. If 
 | 50 - 99           | $10,000 USD | $5,000 USD |
 | 1 - 49            | $7,000 USD | $2,000 USD |
 
-✝︎ Based on a Silver level Linux Foundation membership
+✝︎ Based on a Silver level Linux Foundation membership (may be smaller depending on the number consolidated employees)
