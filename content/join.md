@@ -21,10 +21,12 @@ Members of Reactive Foundation must also be members of the Linux Foundation. If 
 ### Silver Fee Membership Pricing
 | Consolidated Employees  | Not yet a Linux<br>Foundation Member✝︎ | Already a Linux<br>Foundation member |
 |-------------------|---------------------------------|-------------------|
-| 3,000+            | $50,000 USD | $30,000 USD |
-| 1,000 - 2,999     | $40,000 USD | $20,000 USD |
-| 100 - 999         | $30,000 USD | $10,000 USD |
-| 50 - 99           | $25,000 USD | $5,000 USD |
-| 1 - 49            | $22,000 USD | $2,000 USD |
+| 5,000+            | $50,000 USD | $30,000 USD |
+| 3,000 - 4,999     | $45,000 USD | $30,000 USD |
+| 1,000 - 2,999     | $35,000 USD | $20,000 USD |
+| 500 - 999         | $25,000 USD | $10,000 USD |
+| 100 - 499         | $20,000 USD | $10,000 USD |
+| 50 - 99           | $10,000 USD | $5,000 USD |
+| 1 - 49            | $7,000 USD | $2,000 USD |
 
 ✝︎ Based on a Silver level Linux Foundation membership
