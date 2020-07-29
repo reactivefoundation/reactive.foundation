@@ -49,7 +49,12 @@ weight = 4
 
 [[main]]
 name = "Governing Board"
-url = "/people"
+url = "/board"
+parent = "people"
+
+[[main]]
+name = "Technical Oversight Commitee"
+url = "/toc"
 parent = "people"
 
 [[main]]
