@@ -10,12 +10,13 @@ footer = "reactivefoundation-stacked-white.png"
 
 [[info.columns]]
 title = "Reactive Foundation"
-content = "Supported by the [Linux Foundation](https://www.linuxfoundation.org/) the Reactive Foundation is committed to improving the developer experience of designing and building cloud native applications using Reactive architecture, Reactive programming, Reactive systems, Reactive Streams, event-sourcing, streaming machine learning, serverless, and other emerging technologies."
+content = "Supported by the [Linux Foundation](https://www.linuxfoundation.org/) the Reactive Foundation  is committed to improving the developer experience of designing and building applications and systems based on Reactive Principles, patterns, and projects."
+
 
 [[info.columns]]
-title = "Cloud Native Applications"
+title = "Reactive Principles, Patterns, Projects"
 content = """
-Taking full advantage of cloud infrastructure requires new application architecture, design principles, patterns, and tools. Reactive Foundation will foster collaboration between the industry’s top developers, end users, and vendors to define, support, and evangelize cloud native application design best practices and methodologies. It will also grow and sustain the open source projects and initiatives that are integral to cloud native application development.
+Taking full advantage of cloud infrastructure requires new application design principles, patterns, and projects. It’s here that Reactive leads the way. Reactive Foundation will foster collaboration between the industry’s top developers, end users, and vendors to define, support, and evangelize Reactive Principles and methodologies. It will also grow and sustain the open source projects and initiatives that are integral to Reactive systems and application development.
 """
 
 
