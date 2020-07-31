@@ -3,7 +3,7 @@ title: Reactive Foundation
 description: Join Us
 ---
 
-Membership in the Foundation provides a rare, ground floor opportunity to shape the industry direction and open source project adoption for designing and building cloud native applications.
+Membership in the Foundation provides a rare, ground floor opportunity to shape the industry direction and adoption of Reactive Principles, patterns, and projects.
 
 Members of Reactive Foundation must also be members of the Linux Foundation. If you are interested in joining please email info@reactive.foundation.
 
@@ -11,15 +11,15 @@ Members of Reactive Foundation must also be members of the Linux Foundation. If 
 
 ### Annual Pricing
 
-| Membership Class  | Not yet a Linux<br>Foundation Member✝︎ | Already a Linux<br>Foundation member |
+| Membership Class  | Not yet a Linux<br>Foundation member✝︎ | Already a Linux<br>Foundation member |
 |-------------------|---------------------------------|-------------------|
 | Platinum          | $120,000 USD | $100,000 USD |
 | Gold              | $20,000 USD | $50,000 USD |
 | Silver            | See Fee Schedule Below | See Fee Schedule Below | 
-| End User          | $25,000 | $5,000 |
+| End User          | $10,000 - $25,000 USD | $5,000 USD |
 
 ### Silver Fee Membership Pricing
-| Consolidated Employees  | Not yet a Linux<br>Foundation Member✝︎ | Already a Linux<br>Foundation member |
+| Consolidated Employees  | Not yet a Linux<br>Foundation member✝︎ | Already a Linux<br>Foundation member |
 |-------------------|---------------------------------|-------------------|
 | 5,000+            | $50,000 USD | $30,000 USD |
 | 3,000 - 4,999     | $45,000 USD | $30,000 USD |
