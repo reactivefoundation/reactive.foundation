@@ -3,7 +3,7 @@ title: Reactive Foundation
 description: Reactive Summit
 ---
 
-On November 11, 2020, [Reactive Summit](https://www.reactivesummit.org/) returns with a one-day virtual format. [The CFP is open!](https://forms.gle/pCNu8jPzMZYvqQSQ9)
+On November 11, 2020, [Reactive Summit](https://www.reactivesummit.org/) returns with a one-day virtual format.
 
 Reactive Summit is where innovators go to learn and collaborate on the latest Reactive patterns and projects for building distributed systems using event-sourcing, stateful serverless, streaming machine learning, and more.
 
