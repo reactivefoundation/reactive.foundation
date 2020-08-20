@@ -96,13 +96,13 @@ bio = "Ryland Degnan is a software engineer at Twitter, where his current focus 
 
 [[toc]]
 name = "Oleh Dokuka"
-title = "RSocket Representitive"
+title = "RSocket Representative"
 img = "Headshot-OlehDokuka.jpg"
 bio = "Software Engineer who knows how to work with Reactive as a user as well as a developer. Java Champion. Co-author of the book \"Hands‑On Reactive Programming in Spring 5\". Works on RSocket and improves Project Reactor along the way"
 
 [[toc]]
 name = "Mark Paluch"
-title = "R2DBC Representitive"
+title = "R2DBC Representative"
 img = "Headshot-MarkPaluch.png"
 bio = "Mark Paluch leads the Spring Data efforts at VMware and is involved in various other Spring projects. He designed the reactive Spring Data stack, and he’s very involved in the Reactive Programming scene being the spec lead for the Reactive Relational Database Connectivity (R2DBC) project and maintaining the reactive Lettuce Redis driver. Outside of work, he is a passionate trance music producer."
 
