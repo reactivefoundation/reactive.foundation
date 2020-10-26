@@ -1,2 +1,2 @@
-# reactive.foundation
+# reactive.foundation. - Depricated
 reactive.foundation website
