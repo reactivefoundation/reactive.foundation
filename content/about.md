@@ -2,7 +2,7 @@
 title: Reactive Foundation
 description: About Reactive Foundation
 ---
-Reactive Foundation is committed to improving the developer experience of designing and building applications and systems based on Reactive Principles, patterns, and projects. 
+Reactive Foundation is committed to improve the developer experience of designing and building applications and systems based on Reactive Principles, patterns, and projects. 
 
 Our goal is to serve as a vendor-neutral home for the Reactive projects and initiatives that developers require for distributed system development and provide critical education around the new principles necessary to take full advantage of the cloud. It's here that Reactive leads the way.
 
