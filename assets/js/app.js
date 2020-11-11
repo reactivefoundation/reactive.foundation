@@ -1,5 +1,5 @@
-function scrollAdjust() {
-  const padding = 50;
+function scrollAdjust() { //scrolling
+  const padding = 50; //page padding 
   const offset = -1 * padding;
   const shiftWindow = function() { scrollBy(0, offset); }
   window.addEventListener("hashchange", shiftWindow);
@@ -14,10 +14,10 @@ function navbarBurger() {
   });
 }
 
-$(function() {
-  scrollAdjust();
+$(function() { //function start
+  scrollAdjust(); //Scroll Page Option
   navbarBurger();
 });
 
-function externalLinks() { 
+function externalLinks() { //External Links 
   for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) { var b = c[a]; b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank") } } ; externalLinks();
